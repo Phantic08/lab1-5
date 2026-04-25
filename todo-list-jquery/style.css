@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.todo-item span {
+  flex-grow: 1;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 10px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.todo-item button:hover {
+  opacity: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}

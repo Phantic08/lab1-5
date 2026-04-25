@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-board"></div>
+    <div class="controls">
+        <div id="score">Score: 0</div>
+        <div id="joystick">
+            <button id="btn-up">↑</button>
+            <div class="joystick-row">
+                <button id="btn-left">←</button>
+                <button id="btn-down">↓</button>
+                <button id="btn-right">→</button>
+            </div>
+        </div>
+        <div class="speed-control">
+            <label for="speed-input">Speed (ms):</label>
+            <input type="number" id="speed-input" value="800">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
